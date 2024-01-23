@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="profile">
+          <img id="profile-image" src="images/Hamzaa4.jpg" alt="Profile Picture" class="fade-in">
+        </div>
+        <div class="header-text">
+          <h1>Youssef Hamza</h1>
+          <p>Computer Engineering Student
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="quiz">
+    <div class="container">
+      <h2>Web Development Quiz</h2>
+      <div id="quiz-container"></div>
+
+      <center><button class="button" onclick="showResults()">
+        Show Results
+        <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+          <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+        </svg>
+      </button></center>
+      <div id="results-container" style="display: none;"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Youssef Hamza. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="JavaScript/scripts.js"></script>
+</body>
+</html>
